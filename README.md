@@ -67,9 +67,6 @@ This repository documents the development process, technical decisions, challeng
 
 More documentation will be added as the project progresses.
 
-
-
-
-## Application Architecture
+##  Current Application Architecture
 
 ![UserHub Current Architecture](docs/images/userhub-architecture.png)
