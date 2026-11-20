@@ -1,7 +1,7 @@
 :root {
-  font-family: Arial, sans-serif;
-  color: #1f2937;
-  background: #f9fafb;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  color: #111827;
+  background: #f8fafc;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -12,6 +12,11 @@
   box-sizing: border-box;
 }
 
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   min-width: 320px;
@@ -19,17 +24,31 @@ body {
 }
 
 #root {
-  width: 100%;
   min-height: 100vh;
+  width: 100%;
 }
 
 h1,
 h2,
+h3,
+h4,
 p {
   margin-top: 0;
 }
 
+button,
+input {
+  font: inherit;
+}
+
 button {
-  font-family: inherit;
-  font-size: inherit;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
 }
